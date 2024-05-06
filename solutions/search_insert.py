@@ -14,7 +14,7 @@ class Solution(object):
             nums.append(target)
             nums.sort()
             z = nums
-            x = -1
+            x = -1   
             for h in range(len(nums)):
                 x = x + 1
                 y = z[0]
