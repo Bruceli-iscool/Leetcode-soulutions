@@ -1,4 +1,5 @@
 class Solution(object):
+    # here i use brute-force method
     def search(self, nums, target):
         if target in nums:
             z = nums
